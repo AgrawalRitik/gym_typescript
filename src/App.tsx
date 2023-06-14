@@ -1,5 +1,5 @@
 import Navbar from "@/scenes/navbar";
-import Logo from "@/assets/Logo.png";
+// import Logo from "@/assets/Logo.png";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
 import Home from "@/scenes/home";
@@ -34,6 +34,7 @@ function App() {
         isTopOfPage = {isTopOfPage}
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
+        page = {"navbar"}
         />
         <Home setSelectedPage = {setSelectedPage}/>
         <Benefits setSelectedPage={setSelectedPage} />
